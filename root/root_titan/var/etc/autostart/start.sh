@@ -313,7 +313,7 @@ startConfig()
       else
         hybridtuner=c
       fi
-      tuner="spark7162.ko UnionTunerType=$hybridtuner"
+      tuner="spark7162-fe.ko UnionTunerType=$hybridtuner"
       front="aotom.ko"
       case $HighSR in
         y)
